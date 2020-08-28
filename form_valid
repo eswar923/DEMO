@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+      <body>
+			<form action="/action_page.php">
+			<p><strong>info :</strong></p>
+  			<label for="<fname">First name:</label>
+  			<input type="text" id="fname" name="fname">
+ 			<label for="lname">Last name:</label>
+  			<input type="text" id="lname" name="lname"><br><br>    
+  			<label for="Num">phone number:</label>
+  			<input type="number" id="Num" name="Num"><br><br>
+  			<input type="radio" id="Bachelors" name="gender" value="Bachelors">
+  			<label for="Bachelors">Bachelors</label><br>
+  			<input type="radio" id="Masters" name="Masters" value="Masters">
+  			<label for="Masters">Masters</label><br>
+  			<p>description:</p>
+  			<textarea name="message" rows="5" cols="60"> </textarea>
+  			<p>subject intrested:</p>
+  			<input type="checkbox" id="subject1" name="subject1" value="physics">
+  			<label for="subject1"> physics</label><br>
+  			<input type="checkbox" id="subject2" name="subject2" value="c language">
+  			<label for="subject2"> c language</label><br>
+  			<input type="checkbox" id="subject3" name="subject3" value="java">
+  			<label for="subject3"> java</label><br><br>
+  			<label for="email">Enter your email:</label>
+  			<input type="email" id="email" name="email" required><br><br>
+  			<input type="submit" value="Submit">
+            </form>
+      </body>
+</html>
